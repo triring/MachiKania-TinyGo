@@ -1,6 +1,6 @@
 # MachiKania-TinyGo
 
-Raspberry Pi Picoを利用してBASICプログラムを動作させることができる、オープンプラットフォーム[MachiKania](https://github.com/machikania)の中の液晶搭載モデル [type P](http://www.ze.em-net.ne.jp/~kenken/machikania/typep.html) を[TinyGo](https://tinygo.org/)で動かしてみました。  
+Raspberry Pi Picoを利用してBASICプログラムを動作させることができるオープンプラットフォーム[MachiKania](https://github.com/machikania)の中の液晶搭載モデル [type P](http://www.ze.em-net.ne.jp/~kenken/machikania/typep.html) を[TinyGo](https://tinygo.org/)で動かしてみました。  
 
 使用したMachiKania type P のスペックは以下の通りです。  
 
