@@ -5,7 +5,7 @@ Raspberry Pi Picoを利用してBASICプログラムを動作させることが�
 使用したMachiKania type P のスペックは以下の通りです。  
 
 * 液晶	ILI9341搭載QVGA（320x240）SPI接続
-* スイッチ	上下左右、FIRE、START用計6個
+* キー	上下左右、FIRE、START用計6個
 * ブザー	圧電スピーカ 1
 
 液晶は、SPI1に接続されており、標準的なili9341液晶ドライバで動きました。  
@@ -25,3 +25,21 @@ Raspberry Pi Picoを利用してBASICプログラムを動作させることが�
 | GPIO10 | LCD_DC |
 | GPIO13 | LCD_CS |
 | GPIO11 | LCD_RESET |
+
+
+キーパッドの設定
+
+| PIN    | キー   |
+|:-------|:------ |
+| GPIO4  | up     | 
+| GPIO5  | left   | 
+| GPIO6  | down   | 
+| GPIO7  | right  | 
+| GPIO27 | A      | 
+| GPIO28 | B      | 
+
+ブザーの設定
+
+| PIN    | 機能         |
+|:-------|:------------ |
+| GPIO28 | PIEZO BUZZER | 
