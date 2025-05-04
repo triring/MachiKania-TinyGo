@@ -9,7 +9,7 @@ Raspberry Pi Picoを利用してBASICプログラムを動作させることが�
 * ブザー	圧電スピーカ 1
 
 液晶は、SPI1に接続されており、標準的なili9341液晶ドライバで動きました。  
-設定とピンの割当は以下の通りでした。  
+以下が、設定とピンの割当です。  
 
 | 項目 | 内容 |
 |:-----|:-----|
@@ -43,3 +43,12 @@ Raspberry Pi Picoを利用してBASICプログラムを動作させることが�
 | PIN    | 機能         |
 |:-------|:------------ |
 | GPIO28 | PIEZO BUZZER | 
+
+
+
+## サンプルプログラム
+
+### L-chika
+
+Raspberry Pi Pico上のLEDを点滅させます。  
+[./L-chika/README.md](./L-chika/README.md)
