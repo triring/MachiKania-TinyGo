@@ -8,7 +8,12 @@ Raspberry Pi Picoを利用してBASICプログラムを動作させることが�
 * キー	上下左右、FIRE、START用計6個
 * ブザー	圧電スピーカ 1
 
+### 液晶
+
 液晶は、SPI1に接続されており、標準的なili9341液晶ドライバで動きました。  
+
+![./images/DSCN9774_640x480.jpg](./images/DSCN9774_640x480.jpg)
+
 以下が、設定とピンの割当です。  
 
 | 項目 | 内容 |
@@ -26,6 +31,9 @@ Raspberry Pi Picoを利用してBASICプログラムを動作させることが�
 | GPIO13 | LCD_CS |
 | GPIO11 | LCD_RESET |
 
+### キーとブザー
+
+![./images/DSCN9773_480x640.jpg](./images/DSCN9773_480x640.jpg)
 
 キーパッドの設定
 
@@ -71,5 +79,3 @@ jpeg形式の画像データを液晶に表示します。
 
 png形式の画像データを液晶に表示します。  
 [./dispPNG/README.md](./dispPNG/README.md)
-
-
