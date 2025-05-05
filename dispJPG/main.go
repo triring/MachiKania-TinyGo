@@ -1,7 +1,7 @@
-// > tinygo build -o dispJPG.uf2 --target=pico --size short .\1dispJPG\
+// > tinygo build -o dispJPG.uf2 --target=pico --size short .
 //    code    data     bss |   flash     ram
-//  112976    3788    5496 |  116764    9284
-// > tinygo flash --target=pico --size short .\dispJPG\
+//  116136    5008    3376 |  121144    8384
+// > tinygo flash --target=pico --size short .
 
 package main
 

@@ -1,9 +1,7 @@
-/*
-> tinygo build -o L-chika.uf2 -target=pico -size short ./main.go
-   code    data     bss |   flash     ram
-  16624     180    3184 |   16804    3364
-> tinygo flash -target=pico -size short ./main.go
-*/
+// > tinygo build -o L-chika.uf2 -target=pico -size short .
+//    code    data     bss |   flash     ram
+//   16640     180    3184 |   16820    3364
+// > tinygo flash -target=pico -size short .
 
 package main
 

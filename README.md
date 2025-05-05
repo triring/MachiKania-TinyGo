@@ -31,19 +31,18 @@ Raspberry Pi Picoを利用してBASICプログラムを動作させることが�
 
 | PIN    | キー   |
 |:-------|:------ |
-| GPIO4  | up     | 
-| GPIO5  | left   | 
-| GPIO6  | down   | 
-| GPIO7  | right  | 
-| GPIO27 | A      | 
-| GPIO28 | B      | 
+| GPIO4  | up     |
+| GPIO5  | left   |
+| GPIO6  | down   |
+| GPIO7  | right  |
+| GPIO27 | A      |
+| GPIO28 | B      |
 
 ブザーの設定
 
 | PIN    | 機能         |
 |:-------|:------------ |
-| GPIO28 | PIEZO BUZZER | 
-
+| GPIO28 | PIEZO BUZZER |
 
 
 ## サンプルプログラム
@@ -52,3 +51,25 @@ Raspberry Pi Picoを利用してBASICプログラムを動作させることが�
 
 Raspberry Pi Pico上のLEDを点滅させます。  
 [./L-chika/README.md](./L-chika/README.md)
+
+### buzzer
+
+MachiKania のブザーを鳴らします。  
+[./buzzer/README.md](./buzzer/README.md)
+
+### SixKeyPad
+
+MachiKania のキー入力をテストします。  
+[./SixKeyPad/README.md](./SixKeyPad/README.md)
+
+### dispJPG
+
+jpeg形式の画像データを液晶に表示します。  
+[./dispJPG/README.md](./dispJPG/README.md)
+
+### dispPNG
+
+png形式の画像データを液晶に表示します。  
+[./dispPNG/README.md](./dispPNG/README.md)
+
+
