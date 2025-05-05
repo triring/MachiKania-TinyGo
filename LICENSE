@@ -1,4 +1,4 @@
-MIT License
+## MIT License
 
 Copyright (c) 2025 triring
 
@@ -19,3 +19,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## 追加ライセンス
+
+[Poul-Henning Kamp](https://people.freebsd.org/%7Ephk/) 氏が提唱しているBEER-WAREライセンスを踏襲し配布する。  
+
+### "THE BEER-WARE LICENSE" (Revision 42)
+
+<akio@triring.net> wrote this file. As long as you retain this notice you
+can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return.
+Copyright (c) 2024 Akio MIWA @triring  
+
+### "THE BEER-WARE LICENSE" (第42版)
+
+このファイルは、<akio@triring.net> が書きました。あなたがこの条文を載せている限り、あなたはソフトウェアをどのようにでも扱うことができます。
+もし、いつか私達が出会った時、あなたがこのソフトに価値があると感じたなら、見返りとして私にビールを奢ることができます。  
+Copyright (c) 2025 Akio MIWA @triring  

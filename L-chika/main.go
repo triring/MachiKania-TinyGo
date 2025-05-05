@@ -1,11 +1,8 @@
 /*
-> tinygo flash -target=pico ./L-chika/
-> tinygo build -o L-chika.uf2 -target=pico -size short ./L-chika
+> tinygo build -o L-chika.uf2 -target=pico -size short ./main.go
    code    data     bss |   flash     ram
-  15900     180    3184 |   16080    3364
-ユーザボタン	　USER (GP24)
-  LED  	青(GP25)
-  LED	WS2812(GP23)
+  16624     180    3184 |   16804    3364
+> tinygo flash -target=pico -size short ./main.go
 */
 
 package main
@@ -16,7 +13,22 @@ import (
 	"time"
 )
 
+var LightOn time.Duration = 1
+var LightOff time.Duration = 1
+
 func main() {
+	// ゲンジボタルの発光パターンを再現
+	/* 点灯1秒 消灯1秒	長崎県五島列島
+	LightOn = 1
+	LightOff = 1
+	*/
+	/* 点灯2秒 消灯1秒	西日本と九州 */
+	LightOn = 2
+	LightOff = 1
+	/* 点灯4秒 消灯1秒	東日本
+	LightOn = 4
+	LightOff = 1
+	*/
 	fmt.Printf("L-chika\n")
 	led := machine.LED
 	led.Configure(machine.PinConfig{
@@ -25,9 +37,9 @@ func main() {
 	for {
 		fmt.Printf("LED off\n")
 		led.Low()
-		time.Sleep(time.Second / 10)
+		time.Sleep(time.Second * LightOff)
 		fmt.Printf("LED on\n")
 		led.High()
-		time.Sleep(time.Second / 10)
+		time.Sleep(time.Second * LightOn)
 	}
 }
