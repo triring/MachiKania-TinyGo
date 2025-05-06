@@ -33,7 +33,7 @@ Raspberry Pi Picoを利用してBASICプログラムを動作させることが�
 
 ### キーとブザー
 
-![./images/DSCN9773_480x640.jpg](./images/DSCN9773_480x640.jpg)
+![./images/DSCN9773_480x640.jpg](./images/DSCN9773_480x512.jpg)
 
 キーパッドの設定
 
@@ -54,6 +54,21 @@ Raspberry Pi Picoを利用してBASICプログラムを動作させることが�
 
 
 ## サンプルプログラム
+
+### 使い方
+
+以下のコマンドで、このサイトの内容をローカルドライブにコピーして下さい。  
+
+```bash
+git clone https://github.com/triring/MachiKania-TinyGo.git
+```
+
+サンプルプログラムを収めたそれぞれのディレクトリには、README.mdファイルがあるので、これを読んでから、サンプルを実行して下さい。  
+
+まだtinygoの開発環境を用意していない方へ  
+
+	サンプルプログラムを収めたそれぞれのディレクトリには、コンパイル済みのuf2ファイルがあります。
+	MachiKaniaを書込みモードに切り替えて、マウントされた[RPI-RP2]ドライブにこのuf2ファイルをコピーして下さい。
 
 ### L-chika
 
@@ -79,3 +94,8 @@ jpeg形式の画像データを液晶に表示します。
 
 png形式の画像データを液晶に表示します。  
 [./dispPNG/README.md](./dispPNG/README.md)
+
+## 参考文献
+
+* [基礎から学ぶ TinyGoの組込み開発](https://c-r.com/book/detail/1477)
+* [tinygo-keeb/workshop](https://github.com/tinygo-keeb/workshop)
